@@ -75,6 +75,22 @@ The architecture includes four hospital nodes and one central HIE node, simulati
 - Successfully performed CRUD operations on FHIR Practitioner resources.
 - Confirmed UI access to both OpenEMR and HAPI-FHIR interfaces.
 
+## 📊 Dashboards
+
+### 1. Geotagged COVID-19 Heatmap
+
+![Heatmap Dashboard](covid%20dashboard%201.png)
+
+> Displays regional concentrations of reported COVID-19 cases across Michigan and surrounding areas.
+
+---
+
+### 2. COVID-19 Case Breakdown by County
+
+![Bar Chart Dashboard](covid%20dashboard%202.png)
+
+> Compares true/false COVID-19 case flags across counties including Marquette, Houghton, Baraga, and Calumet.
+
 ---
 
 ## 🚧 Challenges Faced
@@ -85,6 +101,16 @@ The architecture includes four hospital nodes and one central HIE node, simulati
 - Syncing FHIR formats between OpenEMR and HAPI-FHIR endpoint.
 
 ---
+
+## 🧪 Data Aggregation Notebook
+
+The following Jupyter notebook was used to **combine and preprocess data** received from all OpenEMR nodes before sending it to Looker:
+
+📄 [`data_combine-1.ipynb`](data_combine-1.ipynb)
+
+- Merges data across VMs
+- Performs basic cleansing and feature engineering
+- Outputs structured datasets ready for dashboard ingestion
 
 ## ✅ Outcomes
 
