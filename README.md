@@ -50,13 +50,11 @@ The architecture includes four hospital nodes and one central HIE node, simulati
 
 | Hospital / HIE      | Software     | IP Format          | HAPI-FHIR | OpenEMR | Pinged All VMs |
 |---------------------|--------------|---------------------|------------|---------|----------------|
-| Aspirus             | OpenEMR      | 192.168.17.XX       | ❌         | ✅      | ✅              |
-| Portage Health      | OpenEMR      | 192.168.17.XX       | ❌         | ✅      | ✅              |
-| BCMH                | OpenEMR      | 192.168.17.XX       | ❌         | ✅      | ✅              |
-| MGH                 | OpenEMR      | 192.168.17.XX       | ❌         | ✅      | ✅              |
-| UPHIE (Central HIE) | HAPI FHIR    | 192.168.17.XX       | ✅         | ❌      | ✅              |
-
-> ⚠️ Replace XX with your assigned IPs.
+| Aspirus             | OpenEMR      | 192.168.17.218       | ❌         | ✅      | ✅              |
+| Portage Health      | OpenEMR      | 192.168.17.219       | ❌         | ✅      | ✅              |
+| BCMH                | OpenEMR      | 192.168.17.220       | ❌         | ✅      | ✅              |
+| MGH                 | OpenEMR      | 192.168.17.221       | ❌         | ✅      | ✅              |
+| UPHIE (Central HIE) | HAPI FHIR    | 192.168.17.222       | ✅         | ❌      | ✅              |
 
 ---
 
